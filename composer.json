@@ -1,11 +1,11 @@
 {
-  "name": "monitis/php-sdk",
+  "name": "pabloemigrante/monitis-php-sdk",
   "description": "Extracted part of Monitis SDK",
   "version": "0.0.1",
-  "homepage": "https://github.com/PabloEmigrante/monitis-sdk",
+  "homepage": "https://github.com/PabloEmigrante/monitis-php-sdk",
   "autoload": {
     "psr-4": {
-      "Monitis\\Php\\" : "/",
+      "Monitis\\Php\\" : "/"
     }
   }
 }
