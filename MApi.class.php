@@ -1,4 +1,8 @@
 <?php
+namespace Monitis\Php;
+
+use Monitis\Php\Utils\Request;
+
 class MApi{
     const URL_DEFAULT = 'http://api.monitis.com/api';
     const URL_CUSTOM = 'http://api.monitis.com/customMonitorApi';

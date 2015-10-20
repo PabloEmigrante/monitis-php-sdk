@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php;
+
 class MContact extends MApi{
     const TYPE_EMAIL        = 1;
     const TYPE_SMS          = 2;

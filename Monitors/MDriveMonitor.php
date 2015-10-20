@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php\Monitors;
+
 class MDriveMonitor extends MInternalMonitor{
     /*
      * unsigned int $agentId

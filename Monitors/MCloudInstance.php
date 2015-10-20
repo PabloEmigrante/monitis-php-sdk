@@ -1,4 +1,8 @@
 <?php
+namespace Monitis\Php\Monitors;
+
+use Monitis\Php\MApi;
+
 class MCloudInstance extends MApi{
     const TYPE_EC2 = 'ec2';
     const TYPE_RACKSPACE = 'rackspace';

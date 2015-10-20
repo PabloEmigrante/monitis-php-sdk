@@ -1,4 +1,8 @@
 <?php
+namespace Monitis\Php\Monitors;
+
+use Monitis\Php\MApi;
+
 class MCustomAgent extends MApi{
     /*
      * string $apiKey, string $secretKey, string $authToken, string $version, string $apiUrl, string $publicKey

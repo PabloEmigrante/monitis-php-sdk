@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php\Monitors;
+
 class MProcessMonitor extends MInternalMonitor{
     /*
      * string $apiKey, string $secretKey, unsigned int $version, string $apiUrl

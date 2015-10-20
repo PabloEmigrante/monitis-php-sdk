@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php\Monitors;
+
 class MSnmpMonitor extends MInternalMonitor{
     const AUTH_PROTOCOL_SHA1 = 'SHA1';
     const AUTH_PROTOCOL_MD5  = 'MD5';

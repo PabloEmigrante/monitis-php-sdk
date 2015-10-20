@@ -1,5 +1,7 @@
 <?php
-class MFullPageLoadMonitor extends MBaseMonitor{
+namespace Monitis\Php\Monitors;
+
+class MFullPageLoadMonitor extends MBase {
     /*
      * string $apiKey, string $secretKey, string $authToken, string $version, string $apiUrl, string $publicKey
      */

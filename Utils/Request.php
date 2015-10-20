@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php\Utils;
+
 /*
  * Send GET and POST requests
  */

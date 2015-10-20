@@ -1,4 +1,8 @@
 <?php
+namespace Monitis\Php\Monitors;
+
+use Monitis\Php\MApi;
+
 class MAgent extends MApi{
     /*
      * string $keyRegExp

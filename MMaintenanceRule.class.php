@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php;
+
 class MMaintenanceRule extends MApi{
     const MONITOR_EXTERNAL         = 'external';
     const MONITOR_INTERNAL_CPU     = 'cpu';

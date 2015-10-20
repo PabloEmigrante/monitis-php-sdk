@@ -1,5 +1,7 @@
 <?php
-class MInternalMonitor extends MBaseMonitor{
+namespace Monitis\Php\Monitors;
+
+class MInternalMonitor extends MBase {
     const TYPE_PROCESS = 'process';
     const TYPE_DRIVE   = 'drive';
     const TYPE_MEMORY  = 'memory';

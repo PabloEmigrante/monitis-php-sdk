@@ -1,5 +1,9 @@
 <?php
-class MBase extends MApi{
+namespace Monitis\Php\Monitors;
+
+use Monitis\Php\MApi;
+
+class MBase extends MApi {
     protected $monitorIdString;
     protected $monitorIdsString;
     /*
@@ -10,6 +14,7 @@ class MBase extends MApi{
         $this->monitorIdString = 'monitorId';
         $this->monitorIdsString = 'monitorIds';
     }
+
     /*
      * unsigned int $monitorId
      * return [*] or [error]

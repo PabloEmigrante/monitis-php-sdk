@@ -1,5 +1,7 @@
 <?php
-class MTransactionMonitor extends MBaseMonitor{
+namespace Monitis\Php\Monitors;
+
+class MTransactionMonitor extends MBase {
     /*
      * string $apiKey, string $secretKey, string $authToken, string $version, string $apiUrl, string $publicKey
      */

@@ -1,5 +1,7 @@
 <?php
-class MExternalMonitor extends MBaseMonitor{
+namespace Monitis\Php\Monitors;
+
+class MExternalMonitor extends MBase {
     const TYPE_HTTP  = 'http';
     const TYPE_HTTPS = 'https';
     const TYPE_FTP   = 'ftp';

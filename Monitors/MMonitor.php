@@ -1,4 +1,7 @@
 <?php
+namespace Monitis\Php\Monitors;
+
+use Monitis\Php\MApi;
 
 class MMonitor extends MApi {
 

@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php;
+
 class MLayout extends MApi{
     const MODULE_EXTERNAL          = 'External';
     const MODULE_INTERNAL_PROCESS  = 'Process';

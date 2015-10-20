@@ -1,4 +1,6 @@
 <?php
+namespace Monitis\Php\Monitors;
+
 class MHttpMonitor extends MInternalMonitor{
     const METHOD_GET  = 0;
     const METHOD_POST = 1;
